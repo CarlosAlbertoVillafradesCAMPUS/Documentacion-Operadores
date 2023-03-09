@@ -1,7 +1,7 @@
-//Math.trunc()
+//.toFixed()
 
 let num1 = 3.3567;
-console.log(`Math.trunc()`);
-console.log(`\t Math.trunc(${num1}) = ${Math.trunc(num1)}`);
+console.log(`.toFixed()`);
+console.log(`\t${num1}.toFixed(2) = ${num1.toFixed(2)}`);
 
 
