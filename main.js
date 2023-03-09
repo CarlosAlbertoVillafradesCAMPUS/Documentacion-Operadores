@@ -1,5 +1,6 @@
-//Math.PI
+//Math.max()
 
-console.log(`Math.PI`);
-console.log(`\tMath.PI = ${Math.PI}`);
+let array = [1,2,3,4,5]
+console.log(`Math.max()`);
+console.log(`\t Math.max(${array}) = ${Math.max(...array)}`);
 
