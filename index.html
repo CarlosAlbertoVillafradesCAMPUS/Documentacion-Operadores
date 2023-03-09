@@ -8,24 +8,14 @@
     <script src="./main.js" defer></script>
 </head>
 <body>
-    <h1 style="text-align: center;">Operadores de comparación</h1>
-    <p style="text-align: center;">Un operador de comparación compara sus operandos y devuelve un valor lógico en función de si la comparación es verdadera (true) o falsa (false). Los operandos pueden ser valores numéricos, de cadena, lógicos u objetos. Las cadenas se comparan según el orden lexicográfico estándar, utilizando valores Unicode.</p>
-    <h2>Igual (==)</h2>
-    <p>Devuelve true si los operandos son iguales.</p>
-    <h2>No es igual (!=)</h2>
-    <p>Devuelve true si los operandos no son iguales.</p>
-    <h2>Estrictamente igual (===)</h2>
-    <p>Devuelve true si los operandos son iguales y del mismo tipo. Consulta también Object.is y similitud en JS.</p>
-    <h2>Desigualdad estricta (!==)</h2>
-    <p>Devuelve true si los operandos son del mismo tipo pero no iguales, o son de diferente tipo.</p>
-    <h2>Mayor que (>)</h2>
-    <p>Devuelve true si el operando izquierdo es mayor que el operando derecho.</p>
-    <h2>Mayor o igual que (>=)</h2>
-    <p>Devuelve true si el operando izquierdo es mayor o igual que el operando derecho.</p>
-    <h2>Menor que (<)</h2>
-    <p>Devuelve true si el operando izquierdo es menor que el operando derecho.</p>
-    <h2>Menor o igual (<=)</h2>
-    <p>Devuelve true si el operando izquierdo es menor o igual que el operando derecho.</p>
+    <h1 style="text-align: center;">Operadores lógicos</h1>
+    <p style="text-align: center;">Los operadores lógicos se utilizan normalmente con valores booleanos (lógicos); cuando lo son, devuelven un valor booleano. Sin embargo, los operadores && y || en realidad devuelven el valor de uno de los operandos especificados, por lo que si estos operadores se utilizan con valores no booleanos, pueden devolver un valor no booleano. Los operadores lógicos se describen en la siguiente tabla.</p>
+    <h2>AND Lógico (&&)</h2>
+    <p>Devuelve expr1 si se puede convertir a false; de lo contrario, devuelve expr2. Por lo tanto, cuando se usa con valores booleanos, && devuelve true si ambos operandos son true; de lo contrario, devuelve false.</p>
+    <h2>OR lógico (||)</h2>
+    <p>Devuelve expr1 si se puede convertir a true; de lo contrario, devuelve expr2. Por lo tanto, cuando se usa con valores booleanos, || devuelve true si alguno de los operandos es true; si ambos son falsos, devuelve false.</p>
+    <h2>NOT lógico (!)</h2>
+    <p>Devuelve false si su único operando se puede convertir a true; de lo contrario, devuelve true.</p>
     <p style="text-align: center; text-decoration: underline;">Favor revisar ejemplos en la consola</p>
 </body>
 </html>
