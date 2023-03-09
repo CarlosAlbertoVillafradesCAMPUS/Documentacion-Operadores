@@ -1,8 +1,7 @@
-//Math.round()
+//Math.trunc()
 
 let num1 = 3.3567;
-let num2 = 3.6195;
-console.log(`Math.round()`);
-console.log(`\t Math.round(${num1}) = ${Math.round(num1)}`);
-console.log(`\t Math.round(${num2}) = ${Math.round(num2)}`);
+console.log(`Math.trunc()`);
+console.log(`\t Math.trunc(${num1}) = ${Math.trunc(num1)}`);
+
 
