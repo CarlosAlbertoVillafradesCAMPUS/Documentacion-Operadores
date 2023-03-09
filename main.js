@@ -1,26 +1,37 @@
 let numero1 = 10;
 let numero2 = 5
 
-//Residuo (%)
-console.log(`Residuo (%)`)
-console.log(`\t${numero1} % ${numero2} = ${numero1 % numero2}`)
+//Igual (==)
+console.log(`Igual (==)`)
+console.log(`\t${numero1} == "${numero1}" ${numero1==numero1}`)
 
-//Incremento (++)
-console.log(`Incremento (++)`)
-console.log(`\t++${numero1} = ${++numero1}`)
+//No es igual (!=)
+console.log(`No es igual (!=)`)
+console.log(`\t${numero1} != "${numero2}" ${numero1!=numero2}`)
 
-//Decremento (--)
-console.log(`Decremento (--)`)
-console.log(`\t--${numero1} = ${--numero1}`)
+//Estrictamente igual (===)
+console.log(`Estrictamente igual (===)`)
+console.log(`\t${numero1} === ${numero1} ${numero1===numero1}`)
+console.log(`\t${numero1} === "${numero1}" ${numero1===numero2}`)
 
-//Negación unaria (-)
-console.log(`Negación unaria (-)`)
-console.log(`\t${numero1}\n-${numero1} = ${-numero1}`)
+//Desigualdad estricta (!==)
+console.log(`Desigualdad estricta (!==)`)
+console.log(`\t${numero1} !== "${numero1}" ${numero1!==numero2}`)
+console.log(`\t${numero1} !== ${numero1} ${numero1!==numero1}`)
 
-//Positivo unario (+)
-console.log(`Positivo unario (+)`)
-console.log(`\t+"${numero1}" = ${+numero1}`)
 
-//Operador de exponenciación (**)
-console.log(`Operador de exponenciación (**)`)
-console.log(`\t${numero2} ** ${numero1} = ${numero2 ** numero1}`)
+//Mayor que (>)
+console.log(`Mayor que (>)`)
+console.log(`\t${numero1} > ${numero2} ${numero1 > numero2}`)
+
+//Mayor o igual que (>=)
+console.log(`Mayor o igual que (>=)`)
+console.log(`\t${numero1} >= ${numero1} ${numero1 >= numero1}`)
+
+//Menor que (<)
+console.log(`Menor que (<)`)
+console.log(`\t${numero2} < ${numero1} ${numero2 < numero1}`)
+
+//Menor o igual (<=)
+console.log(`Menor o igual (<=)`)
+console.log(`\t${numero1} <= ${numero1} ${numero1 <= numero1}`)
